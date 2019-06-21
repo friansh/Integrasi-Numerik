@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 print ("Aplikasi integrasi metode Simpson")
 print ("app version 1.0 alpha\n")
 
-a = 0 #batas bawah
-b = 2 #batas atas
+a = 1 #batas bawah
+b = 16 #batas atas
 
-n = 32 #banyak iterasi
+n = 17 #banyak iterasi
 h = (b-a)/n #kepadatan
 
 print("batas bawah\t:" + str(a))
@@ -14,8 +14,8 @@ print("batas atas\t:" + str(b))
 print("jml iterasi\t:" + str(n))
 print("besar h\t\t:" + str(h))
 
-x = [0, 0, 0, 0.25, 0.5, 0.75, 1, 1, 1.25, 1.5, 1.75, 2, 2, 2, 2, 0.25, 0.5, 0.75, 1.25, 1.5, 1.75, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2]
-y = [0, 1, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0.25, 0.5, 0.75, 1.25, 1.5, 1.75, 0.25, 0.5, 0.75, 1.25, 1.5, 1.75]
+x = [0, 1, 1.85, 3, 4, 5, 6, 7, 8, 9, 10, 10.9, 12, 13, 13.9, 14.9,15.6 ,15.85 , 16]
+y = [13, 12 , 11, 10.5, 10.25, 10.1, 9.9, 9.8, 9.65,9.5, 9.32, 9.2, 9.05, 8.9, 8.6, 8, 7, 6, 5]
 
 #x = [0 for it in list(range(n+1))]
 #y = [0 for it in list(range(n+1))]
